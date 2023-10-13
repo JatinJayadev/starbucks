@@ -1,0 +1,165 @@
+*{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+    border-bottom: 2px solid rgba(214, 197, 197, 0.521);
+ 
+}
+nav a{
+    color: #212529;
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+    padding: 30px;
+    font-size: 16px;
+    font-family: sans-serif ;
+    
+}
+.logo{
+    top: 8px;
+}
+.one{
+    position: relative;
+    bottom: 5px;
+
+
+}
+nav input{
+    text-indent: 33px;
+    height: 32px;
+    width: 250px;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border: none;   
+    position: relative;
+    left:230px;
+    bottom:5px;
+}
+div#first{
+ background-color: #1e3932;
+ color: white;
+ height: 80px;
+ position: relative;
+ top: 12.5px;
+ 
+}
+.search{
+    position: absolute;
+    position: fixed;
+    z-index:2;
+    left:813px;
+    bottom:557px;
+}
+.profile{
+    position: relative;
+    left:300px;
+    top:8px;
+    
+}
+.more{
+    width: 96px;
+    height: 32px;
+    padding: 0;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color:#1e3932 ;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 1100px;
+    bottom: 22px;    
+}
+
+.h2{
+    font-size: 20px;
+    font-weight: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left:130px;
+    top: 20px;
+}
+.images{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.images:hover{
+    border: 2px solid #1e3932 ;
+}
+#first{
+    margin-top: 60px;
+}
+.h3{
+    position:relative;
+    left:130px;
+    top: 15px;
+}
+.jatin{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 120px;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+}
+.footer{
+    background-color:#0e382c;
+    color: white;
+    display: flex;
+    height: 500px;
+    
+}
+li{
+    list-style: none;
+    line-height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app{
+    position: relative;
+    right: 20px;
+    top:300px;
+}
+.play{
+    position: relative;
+    top: 300px;
+    right:20px;
+}
+.about{
+    position: relative;
+    top:30px;
+    left: 120px;
+    text-align: center;
+    
+}
+div .no{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+div a{
+    display: flex;
+    justify-content: center;
+    text-decoration-color: #212529;
+    color: #1e3932;
+}
+.media{
+    position: sticky;
+}
+
+.abt{
+    position: relative;
+    right: 30px;
+    margin-right: 10px;
+}
+.quick{
+    width: 300px;
+}
